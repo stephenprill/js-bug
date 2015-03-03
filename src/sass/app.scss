@@ -1,0 +1,20 @@
+body {
+  background: #93DE7F;
+}
+
+.songs-container {
+  overflow: hidden;
+}
+
+.song {
+  background: rgba(white, 0.7);
+  width: 20%;
+  float: left;
+  padding: 20px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.app-footer {
+  padding-left: 10px;
+}
