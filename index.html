@@ -7,21 +7,19 @@
 <body>
 
 <main id="main">
-
   <section id="songs" class="songs-container"></section>
   <footer id="footer" class="app-footer"></footer>
-
 </main>
 
 <script type="text/html" id="playlist">
-  <p>Playlist Length: <strong><% length %></strong> seconds.</p>
+  <p>Playlist Length: <strong><% totalLength %></strong> seconds.</p>
 </script>
 
 <script type="text/html" id="song">
   <article class="song">
     <h2><% title %></h2>
     <h4>by <em><% artist %></em></h4>
-    Song Length: <% length %> seconds
+    <strong>Song Length:</strong> <% length %> seconds
   </article>
 </script>
 

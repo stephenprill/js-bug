@@ -31,7 +31,7 @@ const generateView = (template, data, id) => {
 
   // The above regular expression uses the "g" flag, so this exec() method can be called
   // multiple times to find successive matches in the same string. This will match
-  // multipule <% prop %> variables in a template.
+  // multipule <% prop %> variables in a template and eventually evaluate to null.
   while(match = re.exec(template)) {
     template = template.replace(match[0], data[match[1].trim('')]);
   }
