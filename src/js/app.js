@@ -1,8 +1,9 @@
 let songs = [
   { title: "Poor Song", artist: "Yeah Yeah Yeahs", length: 111 },
   { title: "Glowing", artist: "D.A.", length: 109 },
-  { title: "17", artist: "Youth Lagoon", length: "120" }
+  { title: "17", artist: "Youth Lagoon", length: 120 }
 ];
+
 
 // Generate a song template for each song in the songs array.
 songs.forEach( song => {

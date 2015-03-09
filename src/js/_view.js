@@ -19,5 +19,5 @@ const generateView = (template, data, id) => {
   }
 
   // Inject the generated template into the DOM.
-  dest.innerHTML = template;
+  dest.innerHTML += template;
 };
