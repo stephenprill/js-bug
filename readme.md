@@ -17,3 +17,4 @@ This project has a few bugs in it. Your mission is to figure out where things ar
 1. Run `npm install`
 1. Run `npm run watch` to start a server and build assets.
 1. Visit localhost:8080
+# js-bug
